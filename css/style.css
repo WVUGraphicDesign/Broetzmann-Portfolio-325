@@ -83,7 +83,7 @@ display: block;
 
 .adcampaignheading{
   position: absolute;
-  top: 1010px;
+  top: 1015px;
   left: 340px;
   font-family: "Cooper Black";
   font-style: italic;
@@ -99,11 +99,12 @@ display: block;
 
 .freephotoheading{
   position: absolute;
-  top: 1025px;
-  right: 430px;
+  top: 980px;
+  right: 470px;
   font-family: "Cooper Black";
   font-style: italic;
   color: white;
+  font-size: 30px;
 }
 
 .infographicthumbnail{
@@ -118,8 +119,9 @@ display: block;
   font-family: "Cooper Black";
   font-style: italic;
   color: white;
-  top: 1310px;
+  top: 1320px;
   left: 340px;
+  font-size: 30px;
 }
 
 .publicationthumbnail{
@@ -129,4 +131,10 @@ display: block;
 
 .publicationheading{
   position: absolute;
+  font-family: "Cooper Black";
+  font-style: italic;
+  color: white;
+  top: 1340px;
+  right: 530px;
+  font-size: 35px;
 }
