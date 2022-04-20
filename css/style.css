@@ -12,6 +12,32 @@ header{
   margin-bottom: 110px;
 }
 
+footer{
+  margin-top: 35px;
+}
+
+footer > ul{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  height: 250px;
+  font-size: 24px;
+  font-family: "Adobe Caslon Pro";
+  color: #00a6c6;
+}
+
+footer li{
+  list-style: none;
+  margin-left: 0;
+  margin-top: 15px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+footer a{
+  text-decoration: none;
+  color: #00a6c6;
+}
+
 .primarynav{
 position: absolute;
 top: 50px;
@@ -137,4 +163,88 @@ display: block;
   top: 1340px;
   right: 530px;
   font-size: 35px;
+}
+
+.tedtalkheader{
+  width: 940px;
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.tedtalkheaderp{
+  font-family: "Adobe Caslon Pro";
+  font-weight: bolder;
+  font-size: 18px;
+  margin-bottom: 45px;
+}
+
+.tedtalksketches{
+  width: 700px;
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+.projectideation{
+  font-family: "Cooper Black";
+  font-size: 45px;
+  margin-bottom: 0px;
+  color: #00a6c6;
+}
+
+.ideationp{
+  font-family: "Adobe Caslon Pro";
+  font-weight: bolder;
+  font-size: 18px;
+  margin-bottom: 45px;
+  margin-left: 290px;
+}
+
+.projectfinishline{
+  font-family: "Cooper Black";
+  font-size: 45px;
+  margin-bottom: 0px;
+  color: #00a6c6;
+}
+
+.projectsection{
+  margin-left: 75px;
+}
+
+.tedtalkimage{
+  width: 400px;
+  float: left;
+  margin-right: 25px;
+}
+
+.tedtalkspread{
+  width: 800px;
+  margin-bottom: 25px;
+}
+
+.tedtalkp{
+  font-family: "Adobe Caslon Pro";
+  font-weight: bolder;
+  font-size: 18px;
+  margin-bottom: 45px;
+}
+
+.culturejamheader{
+  width: 940px;
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.culturejamsketches{
+  width: 375px;
+  margin-right: 25px;
+  float: left;
+}
+
+.projectsectionideation{
+  margin-left: 75px;
+  margin-bottom: 400px;
+}
+
+.finalculturejam{
+  width: 800px;
 }
