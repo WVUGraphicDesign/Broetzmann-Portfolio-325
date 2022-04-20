@@ -38,6 +38,11 @@ footer a{
   color: #00a6c6;
 }
 
+.portfoliologo{
+  width: 300px;
+  margin-top: 33px;
+}
+
 .primarynav{
 position: absolute;
 top: 50px;
@@ -247,4 +252,25 @@ display: block;
 
 .finalculturejam{
   width: 800px;
+}
+
+.aboutphoto{
+  width: 300px;
+  float: left;
+  margin-right: 25px;
+}
+
+.aboutsection{
+  margin-top: 200px;
+}
+
+.abouth3{
+  font-family: "Cooper Black";
+  color: #00a6c6;
+  font-size: 35px;
+}
+
+.aboutp{
+  font-family: "Adobe Caslon Pro";
+  font-size: 21px;
 }
