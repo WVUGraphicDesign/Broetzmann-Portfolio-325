@@ -38,6 +38,23 @@ footer a{
   color: #00a6c6;
 }
 
+/*
+.hoverline h2{
+  margin-top: 20px;
+  position: relative;
+}
+
+.hoverline h2:after{
+  content:"";
+  width: 50%;
+  height: 1px;
+  background-color: red;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+}
+*/
+
 .portfoliologo{
   width: 300px;
   margin-top: 33px;
@@ -150,14 +167,15 @@ display: block;
   font-family: "Cooper Black";
   font-style: italic;
   color: white;
-  top: 1320px;
-  left: 340px;
+  top: 1340px;
+  left: 330px;
   font-size: 30px;
 }
 
 .publicationthumbnail{
   width: 500px;
   position: relative;
+  margin-bottom: 25px;
 }
 
 .publicationheading{
@@ -167,6 +185,22 @@ display: block;
   color: white;
   top: 1340px;
   right: 530px;
+  font-size: 35px;
+}
+
+.multimediathumbnail{
+  width: 500px;
+  margin-left: 50px;
+  position: relative;
+}
+
+.multimediaheading{
+  position: absolute;
+  font-family: "Cooper Black";
+  font-style: italic;
+  color: white;
+  top: 1735px;
+  left: 330px;
   font-size: 35px;
 }
 
@@ -273,4 +307,15 @@ display: block;
 .aboutp{
   font-family: "Adobe Caslon Pro";
   font-size: 21px;
+}
+
+.projectsectionideationjam{
+  margin-left: 75px;
+  margin-bottom: 480px;
+}
+
+.resumeh2{
+  font-family: "Cooper Black";
+  color: #00a6c6;
+  font-size: 35px;
 }
