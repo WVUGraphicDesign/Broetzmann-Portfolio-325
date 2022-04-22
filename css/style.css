@@ -14,11 +14,12 @@ header{
 
 footer{
   margin-top: 35px;
+  margin-left: 300px;
 }
 
 footer > ul{
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 200px 200px 200px;
   height: 250px;
   font-size: 24px;
   font-family: "Adobe Caslon Pro";
@@ -365,4 +366,27 @@ display: block;
   margin-bottom: 45px;
   margin-left: 0px;
   margin-top: 15px;
+}
+
+.earlymockup1, .earlymockup2, .earlymockup3{
+  width: 400px;
+}
+
+.earlymockup1{
+  margin-right: 25px;
+  float: left;
+}
+
+.earlymockup2{
+    margin-bottom: 25px;
+}
+
+.earlymockup3{
+  float: left;
+  margin-right: 25px;
+}
+
+.projectsectionrightfoot{
+  margin-left: 75px;
+  margin-bottom: 600px;
 }
