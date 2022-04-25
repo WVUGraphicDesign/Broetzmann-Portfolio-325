@@ -294,6 +294,7 @@ display: block;
   width: 300px;
   float: left;
   margin-right: 25px;
+  margin-bottom: 150px;
 }
 
 .aboutsection{
@@ -314,6 +315,11 @@ display: block;
 label{
   font-family: "Adobe Caslon Pro";
   display: block;
+  font-weight: bold;
+}
+
+input{
+  display: block;
 }
 
 input[type="text"] {
@@ -321,6 +327,7 @@ padding: 10px;
 margin: 10px 0;
 border-radius: 10px;
 border: 0;
+display: inline-block;
 }
 
 input[type="email"] {
@@ -328,6 +335,16 @@ padding: 10px;
 margin: 10px 0;
 border-radius: 10px;
 border: 0;
+}
+
+input[type="textarea"] {
+padding: 10px;
+margin: 10px 0;
+border-radius: 10px;
+border: 0;
+width: 50%;
+height: 60px;
+margin-left: 200px;
 }
 
 .projectsectionideationjam{
