@@ -467,3 +467,23 @@ margin-left: 200px;
   float: left;
   margin-right: 25px;
 }
+
+.manifestosolo{
+  width: 300px;
+  float: left;
+  margin-right: 25px;
+}
+
+.manifestomechanics{
+  width: 400px;
+  margin-bottom: 25px;
+}
+
+.manifestop{
+  font-family: "Adobe Caslon Pro";
+  font-weight: bolder;
+  font-size: 18px;
+  margin-bottom: 45px;
+  float: left;
+  margin-left: 380px;
+}
