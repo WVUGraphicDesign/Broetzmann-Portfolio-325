@@ -487,3 +487,37 @@ margin-left: 200px;
   float: left;
   margin-left: 380px;
 }
+
+.cemeteryphoto{
+  margin-left: 50px;
+  width: 380px;
+  margin-right: 25px;
+}
+
+.shoppingphoto{
+  width: 380px;
+}
+
+.theshardphoto{
+  margin-top: 25px;
+  margin-left: 50px;
+  width: 790px;
+}
+
+.selfportraitpainting{
+  width: 500px;
+  margin-right: 25px;
+  margin-bottom: 15px;
+}
+
+.selfportraitdisplay{
+  width: 300px;
+}
+
+.portraitp{
+  font-family: "Adobe Caslon Pro";
+  font-weight: bolder;
+  font-size: 18px;
+  margin-bottom: 45px;
+  float: left;
+}
