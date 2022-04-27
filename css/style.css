@@ -39,22 +39,88 @@ footer a{
   color: #00a6c6;
 }
 
-/*
-.hoverline h2{
-  margin-top: 20px;
+.campaignfade{
   position: relative;
 }
 
-.hoverline h2:after{
-  content:"";
-  width: 50%;
-  height: 1px;
-  background-color: red;
-  position: absolute;
-  left: 0;
-  bottom: -10px;
+
+.photofade{
+  position: relative;
 }
-*/
+
+
+.infographicfade{
+  position: relative;
+}
+
+.typographyfade{
+  position: relative;
+}
+
+
+.campaignoverlay{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+}
+
+.photooverlay{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+}
+
+
+.infographicoverlay{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: .5s ease;
+}
+
+.typographyoverlay{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: .5s ease;
+}
+
+.campaignfade:hover .campaignoverlay{
+  opacity: 1;
+}
+
+
+.photofade:hover .photooverlay{
+  opacity: 1;
+}
+
+
+.infographicfade:hover .infographicoverlay{
+  opacity: 1;
+}
+
+.typographyfade:hover .typographyoverlay{
+  opacity: 1;
+}
+
 
 .portfoliologo{
   width: 300px;
@@ -140,6 +206,15 @@ display: block;
   font-size: 35px;
 }
 
+.adcampaignfadein{
+  width: 500px;
+  float: left;
+  margin-top: 35px;
+  margin-left: 50px;
+  margin-right: 25px;
+  margin-bottom: 25px;
+}
+
 .freelancephotothumbnail{
   position: relative;
   width: 300px;
@@ -154,6 +229,11 @@ display: block;
   font-style: italic;
   color: white;
   font-size: 30px;
+}
+
+.freelancephotofadein{
+  width: 300px;
+  margin-bottom: 25px;
 }
 
 .infographicthumbnail{
@@ -172,6 +252,13 @@ display: block;
   top: 1350px;
   left: 330px;
   font-size: 30px;
+}
+
+.infographicfadein{
+  width: 300px;
+  margin-left: 50px;
+  margin-right: 25px;
+  margin-top: 30px;
 }
 
 .publicationthumbnail{
@@ -516,7 +603,7 @@ margin-left: 200px;
 
 .portraitp{
   font-family: "Adobe Caslon Pro";
-  font-weight: bolder;
+  font-weight: normal;
   font-size: 18px;
   margin-bottom: 45px;
   float: left;
