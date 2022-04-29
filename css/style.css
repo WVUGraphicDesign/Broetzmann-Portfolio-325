@@ -39,94 +39,13 @@ footer a{
   color: #00a6c6;
 }
 
-.campaignfade{
-  position: relative;
-}
 
-.adcampaignfade{
-    position: relative;
-}
-
-
-.photofade{
-  position: relative;
-}
-
-
-.infographicfade{
-  position: relative;
-}
-
-.typographyfade{
-  position: relative;
-}
-
-
-.campaignoverlay{
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
+.thumbnailhover{
   width: 100%;
-  opacity: 0;
-  transition: .5s ease;
 }
 
-.photooverlay{
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-}
-
-
-.infographicoverlay{
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  opacity: 0;
-  transition: .5s ease;
-}
-
-.typographyoverlay{
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  opacity: 0;
-  transition: .5s ease;
-}
-
-.campaignfade:hover .campaignoverlay{
-  opacity: 1;
-}
-
-
-.photofade:hover .photooverlay{
-  opacity: 1;
-}
-
-
-.infographicfade:hover .infographicoverlay{
-  opacity: 1;
-}
-
-.typographyfade:hover .typographyoverlay{
-  opacity: 1;
-}
-
-.adcampaignfade:hover .campaignoverlay{
-  opacity: 1;
+.thumbnailhover:hover{
+  opacity: 0.5;
 }
 
 
@@ -196,7 +115,6 @@ display: block;
 
 .adcampaignthumbnail{
   width: 500px;
-  position: relative;
   float: left;
   margin-top: 35px;
   margin-left: 50px;
@@ -204,48 +122,10 @@ display: block;
   margin-bottom: 25px;
 }
 
-.adcampaignheading{
-  position: absolute;
-  top: 1015px;
-  left: 340px;
-  font-family: "Cooper Black";
-  font-style: italic;
-  color: white;
-  font-size: 35px;
-}
-
-.adcampaignfadein{
-  width: 500px;
-  float: left;
-  margin-top: 35px;
-  margin-left: 50px;
-  margin-right: 150px;
-  margin-bottom: 25px;
-}
-
-.culturejamfadein{
-  width: 500px;
-  float: left;
-  margin-top: 35px;
-  margin-left: 50px;
-  margin-right: 25px;
-  margin-bottom: 25px;
-}
 
 .freelancephotothumbnail{
-  position: relative;
   width: 300px;
   margin-bottom: 25px;
-}
-
-.freephotoheading{
-  position: absolute;
-  top: 980px;
-  right: 470px;
-  font-family: "Cooper Black";
-  font-style: italic;
-  color: white;
-  font-size: 30px;
 }
 
 .freelancephotofadein{
@@ -259,58 +139,19 @@ display: block;
 .infographicthumbnail{
   width: 300px;
   margin-left: 50px;
+  margin-top: 0px;
   margin-right: 25px;
-  margin-top: 30px;
-  position: relative;
-}
-
-.infographicheading{
-  position: absolute;
-  font-family: "Cooper Black";
-  font-style: italic;
-  color: white;
-  top: 1350px;
-  left: 330px;
-  font-size: 30px;
-}
-
-.infographicfadein{
-  width: 300px;
-  margin-left: 50px;
-  margin-right: 25px;
-  margin-top: 30px;
+  float: left;
 }
 
 .publicationthumbnail{
   width: 500px;
-  position: relative;
   margin-bottom: 25px;
-}
-
-.publicationheading{
-  position: absolute;
-  font-family: "Cooper Black";
-  font-style: italic;
-  color: white;
-  top: 1340px;
-  right: 530px;
-  font-size: 35px;
 }
 
 .multimediathumbnail{
   width: 500px;
   margin-left: 50px;
-  position: relative;
-}
-
-.multimediaheading{
-  position: absolute;
-  font-family: "Cooper Black";
-  font-style: italic;
-  color: white;
-  top: 1735px;
-  left: 330px;
-  font-size: 35px;
 }
 
 .tedtalkheader{
@@ -454,6 +295,18 @@ border: 0;
 width: 50%;
 height: 60px;
 margin-left: 200px;
+margin-bottom: 25px;
+}
+
+input[type="submit"]{
+  border-radius: 10px;
+  padding: 10px;
+  border: 0;
+  color; #ffffff;
+  width: 10%;
+  background-color: #faaa6c;
+  margin-left: 330px;
+  font-family: "Adobe Caslon Pro";
 }
 
 .projectsectionideationjam{
