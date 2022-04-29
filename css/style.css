@@ -114,7 +114,7 @@ display: block;
 }
 
 .adcampaignthumbnail{
-  width: 500px;
+  width: 400px;
   float: left;
   margin-top: 35px;
   margin-left: 50px;
@@ -122,17 +122,14 @@ display: block;
   margin-bottom: 25px;
 }
 
+.deepdivethumbnail{
+  width: 400px;
+  float: left;
+}
+
 
 .freelancephotothumbnail{
   width: 300px;
-  margin-bottom: 25px;
-}
-
-.freelancephotofadein{
-  width: 300px;
-  margin-top: 0px;
-  margin-left: 50px;
-  margin-right: 25px;
   margin-bottom: 25px;
 }
 
@@ -496,30 +493,6 @@ input[type="submit"]{
   margin-top: 35px;
 }
 
-.localfoodsfadein{
-  width: 300px;
-  float: right;
-  margin-top: 0px;
-  margin-left: 0px;
-  margin-right: 0px;
-  margin-bottom: 0px;
-}
-
-.localfoodsoverlay{
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  opacity: 0;
-  transition: .5s ease;
-}
-
-.localfoodsthumbnail:hover .localfoodsoverlay{
-  opacity: 1;
-}
-
 .foodjusticethumbnail{
   width: 400px;
   margin-bottom: 25px;
@@ -529,24 +502,14 @@ input[type="submit"]{
   float: left;
 }
 
-.justicezoom{
-  transition: transform .4s;
+.foodjusticefinal{
+  width: 800px;
 }
 
-.justicezoom:hover{
-  transform: scale(1.05);
-}
-
-.ccmcinfographicthumbnail{
-  width: 400px;
-  margin-bottom: 25px;
-  margin-top: 35px;
-}
-
-.ccmczoom{
-  transition: transform .4s;
-}
-
-.ccmczoom:hover{
-  transform: scale(1.05);
+.justicep{
+  font-family: "Adobe Caslon Pro";
+  font-weight: normal;
+  font-size: 18px;
+  margin-bottom: 45px;
+  margin-left: 260px;
 }
