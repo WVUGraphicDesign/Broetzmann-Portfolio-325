@@ -52,6 +52,17 @@ h2{
   opacity: 0.5;
 }
 
+.categorythumbnaila:hover{
+  opacity: 0.5;
+  transition: 0.3s;
+}
+
+.categorythumbnailb:hover{
+  opacity: 0.5;
+  transition: 0.3s;
+}
+
+
 
 .portfoliologo{
   width: 300px;
