@@ -40,7 +40,7 @@ footer a{
 }
 
 h2{
-  font-family: "cooper-black-std";
+  font-family: 'Corben', cursive;
 }
 
 
@@ -206,13 +206,13 @@ display: block;
 }
 
 .tedtalksketches{
-  width: 700px;
+  width: 360px;
   margin-top: 25px;
   margin-bottom: 15px;
 }
 
 .projectideation{
-  font-family: "Cooper Black";
+  font-family: "Corben";
   font-size: 45px;
   margin-bottom: 0px;
   color: #00a6c6;
@@ -226,8 +226,15 @@ display: block;
   margin-left: 290px;
 }
 
+.ideationptedtalk{
+  font-family: "Adobe Caslon Pro";
+  font-weight: normal;
+  font-size: 18px;
+  margin-bottom: 45px;
+}
+
 .projectfinishline{
-  font-family: "Cooper Black";
+  font-family: "Corben";
   font-size: 45px;
   margin-bottom: 0px;
   color: #00a6c6;
@@ -275,13 +282,18 @@ display: block;
 
 .finalculturejam{
   width: 800px;
+  margin-bottom: 15px;
+}
+
+.culturejamreal{
+  width: 500px;
 }
 
 .aboutphoto{
   width: 300px;
   float: left;
   margin-right: 25px;
-  margin-bottom: 150px;
+  margin-bottom: 170px;
 }
 
 .aboutsection{
@@ -289,7 +301,7 @@ display: block;
 }
 
 .abouth3{
-  font-family: "Cooper Black";
+  font-family: "Corben";
   color: #00a6c6;
   font-size: 35px;
 }
@@ -352,7 +364,7 @@ input[type="submit"]{
 }
 
 .resumeh2{
-  font-family: "Cooper Black";
+  font-family: "Corben";
   color: #00a6c6;
   font-size: 35px;
 }
@@ -363,7 +375,7 @@ input[type="submit"]{
 
 .designexperience{
   float: left;
-  margin-right: 150px;
+  margin-right: 210px;
 }
 
 .skills{
@@ -396,11 +408,31 @@ input[type="submit"]{
 
 .ideationpdeepdive{
   font-family: "Adobe Caslon Pro";
-  font-weight: bolder;
+  font-weight: normal;
   font-size: 18px;
   margin-bottom: 45px;
   margin-left: 0px;
   margin-top: 15px;
+}
+
+.deepdivesetup{
+  margin-top: 500px;
+  margin-left: 75px;
+}
+
+.deepdivereala{
+  width: 400px;
+  margin-right: 15px;
+  float: left;
+}
+
+.deepdiverealb{
+  width: 400px;
+}
+
+.deepdiverealc{
+  width: 400px;
+  margin-top: 25px;
 }
 
 .earlymockup1, .earlymockup2, .earlymockup3{
@@ -410,6 +442,15 @@ input[type="submit"]{
 .bookcoverfinal1{
   width: 600px;
   margin-bottom: 25px;
+}
+
+.bookcoversreala{
+  width: 400px;
+  margin-right: 15px;
+}
+
+.bookcoversrealb{
+  width: 400px;
 }
 /*
 .earlymockup1{
@@ -485,7 +526,7 @@ input[type="submit"]{
 
 .manifestop{
   font-family: "Adobe Caslon Pro";
-  font-weight: bolder;
+  font-weight: normal;
   font-size: 18px;
   margin-bottom: 45px;
   float: left;
@@ -542,6 +583,10 @@ input[type="submit"]{
   float: left;
 }
 
+.foodjusticemockup{
+  width: 600px;
+}
+
 .foodjusticefinal{
   width: 800px;
 }
@@ -552,3 +597,13 @@ input[type="submit"]{
   font-size: 18px;
   margin-bottom: 45px;
   margin-left: 260px;
+  margin-top: 15px;
+}
+
+.justicepmockup{
+  font-family: "Adobe Caslon Pro";
+  font-weight: normal;
+  font-size: 18px;
+  margin-bottom: 45px;
+  margin-top: 15px;
+  }
